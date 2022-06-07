@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Information Services</title>
+body {
+	margin: 20px;
+}
+</style>
+</head>
+<body>
+	<label>Name Filter:</label>
+	<input type="text" id="name-filter">
+	<button type="button" id="name-filter-button">Filter</button>
+	<table border="1" id="table-tpeople">
+		<tr>
+			<th>Full Name</th>
+			<th>Pin</th>
+		</tr>
+		<tr th:each="tpeople : ${tpeopleList}">
+			<td th:text="${tpeople.fullName}"></td>
+			<td th:text="${tpeople.pin}"></td>
+		</tr>
+	</table>
+</body>
+</html>
