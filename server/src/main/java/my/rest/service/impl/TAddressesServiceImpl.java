@@ -12,6 +12,9 @@ import my.rest.repository.TAddressesRepository;
 import my.rest.service.TAddressesService;
 import my.rest.service.TPeopleService;
 
+/**
+ * @author bborisov
+ */
 @Service
 public class TAddressesServiceImpl implements TAddressesService {
 

@@ -13,6 +13,9 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * @author bborisov
+ */
 @Data
 @Entity
 @Table(name = "T_PEOPLE")

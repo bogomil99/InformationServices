@@ -14,6 +14,9 @@ import my.rest.repository.TMailsRepository;
 import my.rest.service.TMailsService;
 import my.rest.service.TPeopleService;
 
+/**
+ * @author bborisov
+ */
 @Service
 public class TMailsServiceImpl implements TMailsService {
 

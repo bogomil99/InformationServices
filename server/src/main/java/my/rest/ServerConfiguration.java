@@ -18,6 +18,9 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * @author bborisov
+ */
 @Configuration
 @EntityScan("my.rest.tables")
 @ComponentScan({ "my.rest", "my.rest.restcontroller", "my.rest.service.impl", "my.rest.repository" })

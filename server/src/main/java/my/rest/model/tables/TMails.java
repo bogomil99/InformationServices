@@ -15,6 +15,9 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * @author bborisov
+ */
 @Data
 @Entity
 @Table(name = "T_MAILS")
@@ -33,8 +36,7 @@ public class TMails implements Serializable {
 	TPeople tPeople;
 	
 	@Column(name = "EMAIL_TYPE", nullable = false)
-//	@Enumerated(EnumType.STRING)
-	String emailType; // enum mayby?
+	String emailType; // enum maybe?
 
 	@Column(name = "EMAIL")
 	String email;

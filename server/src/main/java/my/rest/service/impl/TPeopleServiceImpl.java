@@ -12,6 +12,9 @@ import my.rest.model.tables.TPeople;
 import my.rest.repository.TPeopleRepository;
 import my.rest.service.TPeopleService;
 
+/**
+ * @author bborisov
+ */
 @Service
 public class TPeopleServiceImpl implements TPeopleService {
 
@@ -67,6 +70,7 @@ public class TPeopleServiceImpl implements TPeopleService {
 		return tPeopleRepository.findById(id).orElseThrow(NoSuchElementException::new);
 	}
 
+	
 	@Override
 	public TPeople create(String fullName, String pin) throws BackendErrorsException {
 		TPeople tpeople = new TPeople();

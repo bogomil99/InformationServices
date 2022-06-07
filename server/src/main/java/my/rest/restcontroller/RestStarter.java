@@ -17,6 +17,9 @@ import my.rest.service.TAddressesService;
 import my.rest.service.TMailsService;
 import my.rest.service.TPeopleService;
 
+/**
+ * @author bborisov
+ */
 @RestController
 public class RestStarter {
 

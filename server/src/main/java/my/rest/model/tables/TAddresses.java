@@ -15,6 +15,9 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * @author bborisov
+ */
 @Data
 @Entity
 @Table(name = "T_ADDRESSES")
@@ -33,8 +36,7 @@ public class TAddresses implements Serializable {
 	TPeople tPeople;
 	
 	@Column(name = "ADDR_TYPE", nullable = false)
-//	@Enumerated(EnumType.STRING)
-	String addrType; // enum mayby?
+	String addrType; // enum maybe?
 
 	@Column(name = "ADDR_INFO")
 	String addrInfo;

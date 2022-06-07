@@ -1,5 +1,8 @@
 package my.rest.exception;
 
+/**
+ * @author bborisov
+ */
 public class BackendErrorsException extends Exception {
 
 	private static final long serialVersionUID = 1L;

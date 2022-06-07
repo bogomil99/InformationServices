@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import my.rest.model.tables.TPeople;
 import my.rest.service.TPeopleService;
 
+/**
+ * @author bborisov
+ */
 @Controller
 public class ViewController {
 
